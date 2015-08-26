@@ -1,8 +1,14 @@
 # Markx
+
+
+## About this folk
+
+Simply compatible with python 3
+
 ### Markdown editor for scientific writing. Batteries included.
 
 ## Why Markx?
-Markdown has recently become popular among academics as a way to produce scientific documents. 
+Markdown has recently become popular among academics as a way to produce scientific documents.
 When paired with document conversion engines such as pandoc, it provides an easy and powerful way to write.
 Being a simple plain-text markup language, Markdown is easy to learn, and can be handled by version control systems.
 We decided to build Markx as to make markdown writing a collaborative effort that could be hosted as web service.
@@ -25,7 +31,7 @@ For additional discussion, see these blog posts:
 1. Display math with LaTeX formatting - $x^2+y^2=r^2$.
 1. Citations - [BibTeX]: [@Drake1991]
 1. Code highlighting:
-		
+
 		if __name__ == '__main__':
 		    # Bind to PORT if defined, otherwise default to 5000.
 		    port = int(os.environ.get('PORT', 5000))
@@ -40,7 +46,7 @@ Markx is currently in development but can be used locally (see Installation inst
 
 It is still experimental, so **take care of your data!**
 
-We would love to get feedback from anyone using it - Please [open an issue](https://github.com/yoavram/markx/issues) with any bug or suggestion. 
+We would love to get feedback from anyone using it - Please [open an issue](https://github.com/yoavram/markx/issues) with any bug or suggestion.
 If you can't open an issue please contact Yoav on [twitter](http://www.twitter.com/yoavram) (you can use the `#markx` hashtag).
 
 ## Technology
@@ -62,7 +68,7 @@ If you can't open an issue please contact Yoav on [twitter](http://www.twitter.c
 ## Install locally
 
 1. Clone [this repository](https://github.com/yoavram/markx/)
-1. Install [Python] - developed with version 2.7 
+1. Install [Python] - developed with version 2.7
 1. Install [Flask] and [requests]: `pip install Flask requests`
 1. Optionally install [Pandoc]
 1. Run Markx by calling `python server.py` and pointing your browser at <http://localhost:5000>.
